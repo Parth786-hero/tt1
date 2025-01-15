@@ -1,4 +1,5 @@
 import bag from "../assets/movies";
+import React from 'react';
 function Card({slug , content , status}) {
     let num = Math.floor(Math.random()*bag.length);
     return (

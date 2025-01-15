@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import React from 'react';
 import Card from "./components/Card";
 const App = () => {
 
@@ -21,7 +22,7 @@ const App = () => {
     function trigger(){
         updateShowFull(false);
     }
-    let sal = 1500;
+    // let sal = 1500;
     return (
         <>
             <div className="container">
